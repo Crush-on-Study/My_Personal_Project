@@ -1,8 +1,8 @@
 import pyupbit
 import numpy as np
 
-access_key = "QJjxuBhkz503lzi5YE9Gx0UPLB2NQuVsq7hIetfa"
-secret_key = "aQC4R1zR1xy55cnOGPByw5HrOScHX47RERx3kdaV"
+access_key = "my_access"
+secret_key = "my_secret"
 upbit = pyupbit.Upbit(access_key,secret_key)
 
 print(upbit.get_balance("KRW"))
